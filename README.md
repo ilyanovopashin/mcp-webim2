@@ -32,6 +32,7 @@ Once running, connect your MCP-compatible client (such as the n8n AI agent) to t
 server. Call the `get_timezones` tool and optionally supply a different region, for
 example `America` or `Asia/Tokyo`.
 
+
 ## Deploying on Vercel
 
 This repository is pre-configured for deployment on [Vercel](https://vercel.com/):
@@ -56,5 +57,3 @@ This repository is pre-configured for deployment on [Vercel](https://vercel.com/
 
 3. Configure your MCP-compatible client to use the deployed `/mcp` endpoint.
 
-The `vercel.json` configuration ensures that the Python runtime is used and that all
-requests to `/` and `/mcp` are routed to the MCP server defined in `api/index.py`.
