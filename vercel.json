@@ -2,11 +2,15 @@
   "version": 2,
   "functions": {
     "api/**/*.py": {
-      "maxDuration": 10,
-      "memory": 1024
+      "maxDuration": 300,
+      "memory": 1024,
+      "supportsResponseStreaming": true,
+      "runtime": "python3.11"
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/api/index" }
+    { "source": "/", "destination": "/api/index" },
+    { "source": "/mcp", "destination": "/api/index" },
+    { "source": "/mcp/(.*)", "destination": "/api/index" }
   ]
 }
