@@ -12,6 +12,7 @@ app = server.streamable_http_app()
 
 
 @app.route("/")
+@app.route("/api/index")
 async def root(_: Request) -> JSONResponse:
     """Provide a simple health endpoint for Vercel deployments."""
 
