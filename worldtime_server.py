@@ -5,6 +5,7 @@ import json
 from typing import Any
 
 import httpx
+from mcp.server.fastmcp import FastMCP
 
 
 # Configure the MCP server for both local execution (stdio transport) and

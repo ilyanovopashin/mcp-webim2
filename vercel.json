@@ -1,11 +1,12 @@
 {
   "version": 2,
   "functions": {
+    "api/**/*.py": {
       "maxDuration": 10,
       "memory": 1024
     }
-  ,
+  },
   "rewrites": [
-    { "source": "/", "destination": "/api/index" },
+    { "source": "/", "destination": "/api/index" }
   ]
 }
