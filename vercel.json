@@ -2,9 +2,8 @@
   "version": 2,
   "functions": {
     "api/**/*.py": {
-      "maxDuration": 300,
+      "maxDuration": 60,
       "memory": 1024,
-      "supportsResponseStreaming": true,
       "runtime": "python3.11"
     }
   },
