@@ -5,7 +5,7 @@ import json
 from typing import Any
 
 import httpx
-from mcp.server.fastmcp import FastMCP
+
 
 # Configure the MCP server for both local execution (stdio transport) and
 # deployment on serverless platforms such as Vercel. The ``stateless_http`` flag
@@ -17,7 +17,7 @@ server = FastMCP(
 )
 
 
-@server.tool()
+
 async def get_timezones(region: str = "Europe") -> str:
     """Return the list of timezones for a WorldTimeAPI region.
 
