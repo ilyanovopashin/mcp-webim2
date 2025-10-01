@@ -1,11 +1,4 @@
 {
-  "functions": {
 
-    }
-  },
-  "routes": [
-    { "src": "/", "dest": "api/index.py" },
-    { "src": "/mcp", "dest": "api/index.py" },
-    { "src": "/mcp/(.*)", "dest": "api/index.py" }
-  ]
+  
 }

@@ -33,6 +33,7 @@ server. Call the `get_timezones` tool and optionally supply a different region, 
 example `America` or `Asia/Tokyo`.
 
 
+
 ## Deploying on Vercel
 
 This repository is pre-configured for deployment on [Vercel](https://vercel.com/):
@@ -56,4 +57,5 @@ This repository is pre-configured for deployment on [Vercel](https://vercel.com/
    - `POST /mcp` – The Streamable HTTP transport endpoint for MCP clients.
 
 3. Configure your MCP-compatible client to use the deployed `/mcp` endpoint.
+
 
